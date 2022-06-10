@@ -219,7 +219,8 @@ color: var(--second-text-cl);
 }
 
 .hero-btn {
-  display: flex;
+  outline: 1px solid red;
+  
   padding: 10px 32px;
   margin-top: 35px;
   margin-right: auto;
@@ -237,7 +238,6 @@ color: var(--second-text-cl);
   text-align: center;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -481,9 +481,6 @@ align-items: center;
 .btn-item {
   margin-right: 8px;
 
-  color: var(--accent-cl);
-  background-color: var(--second-color);
-
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -496,6 +493,9 @@ align-items: center;
 .btn-filter {
   padding: 6px 22px;
   border-radius: 4px;
+
+  background-color: var(--second-color);
+  color: var(--accent-cl);
 }
 .btn-filter:hover, .btn-filter:focus {
   background-color: var(--btn-color);
